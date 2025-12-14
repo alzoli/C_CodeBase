@@ -45,5 +45,8 @@ void memory_violation(void) {
 
 int main(void) {
     printf("MISRA 2012 Violations Demo\n");
+    /* Test code */
+    unreachable_code();
     return 0;
 }
+    /* T
