@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "c_write.h"
 
 /* MISRA 2012 Violation Examples for Training */
 
@@ -47,6 +48,7 @@ int main(void) {
     printf("MISRA 2012 Violations Demo\n");
     /* Test code */
     unreachable_code();
+    /* Print FiboNumbers */
+    print_fibonacci("Five");
     return 0;
 }
-    /* T
