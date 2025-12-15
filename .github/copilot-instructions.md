@@ -34,3 +34,11 @@ applyTo: "**"
 
 ## Error Handling
 - Always use error codes or exceptions for error handling
+
+# Review Checklist
+- Ensure adherence to naming conventions
+- Verify MISRA 2012 compliance
+- Check for proper commenting and documentation
+- Validate error handling mechanisms
+- Confirm code readability and maintainability
+- Ensure no TODO comments are left in the code
